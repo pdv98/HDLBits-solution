@@ -1,8 +1,7 @@
-```verilog
 module top_module(
     input  wire [3:0] in,
     output wire [2:0] out_both,
-   	output wire [3:1] out_any,
+	output wire [3:1] out_any,
     output wire [3:0] out_different
 );
     
